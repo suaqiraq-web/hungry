@@ -3,7 +3,7 @@ import 'package:hungry/core/theme/app_colors.dart';
 import 'package:hungry/core/theme/app_text_style.dart';
 
 class SearchView extends StatefulWidget {
-  SearchView({super.key, required this.search, required this.onChanged});
+  const SearchView({super.key, required this.search, required this.onChanged});
   final TextEditingController search;
   final Function(String) onChanged;
   @override

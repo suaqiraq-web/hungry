@@ -14,7 +14,8 @@ class CartItemView extends StatelessWidget {
     this.onAdd,
     this.onMun,
     this.onRemove,
-    required this.number, required this.isLoading,
+    required this.number,
+    required this.isLoading,
   });
 
   final String image;
@@ -121,7 +122,10 @@ class CartItemView extends StatelessWidget {
                           ],
                         ),
                         const Spacer(),
-                        RemoveButtomView(onRemove: onRemove, isLoading: isLoading),
+                        RemoveButtomView(
+                          onRemove: onRemove,
+                          isLoading: isLoading,
+                        ),
                       ],
                     ),
                   ),

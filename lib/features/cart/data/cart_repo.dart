@@ -4,14 +4,6 @@ import 'package:hungry/features/cart/data/cart_model.dart';
 
 class CartRepo {
   final ApiService _apiService = ApiService();
-  //add to cart
-  Future<void> addToCart(CartRequestModel cartData) async {
-    try {
-      await _apiService.post("/cart/add", cartData.toJson());
-    } catch (e) {
-      throw ApiError(message: e.toString());
-    }
-  }
 
   //get cart
   Future<GetcardResponse?> GetCartData() async {
@@ -41,6 +33,4 @@ class CartRepo {
       throw ApiError(message: e.toString());
     }
   }
-
- 
 }

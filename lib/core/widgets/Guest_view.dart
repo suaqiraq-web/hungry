@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:hungry/core/theme/app_colors.dart';
 import 'package:hungry/core/theme/custom_text.dart';
-import 'package:hungry/features/Login/view/login_view.dart';
+import 'package:hungry/features/auth/view/login_view.dart';
 
 class GuestView extends StatefulWidget {
   const GuestView({super.key, this.title, this.description});

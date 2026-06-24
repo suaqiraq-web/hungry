@@ -4,7 +4,7 @@ class Appcolors {
   static const Color primary = Color(0xFF0A0E21);
   static const Color accent = Color(0xFFEB1555);
   static const Color secondary = Color(0xFFEB1555);
-  static const Color background = Color.fromARGB(255, 241, 98, 2);//Color(0xFF08431D)
+  static const Color background = Color.fromARGB(255, 241, 98, 2);
   static const Color backgroundDark = Color(0xFFC94E00);
   static const Color surface = Color(0xFFFFFBF7);
   static const Color surfaceVariant = Color(0xFFFFF1E6);

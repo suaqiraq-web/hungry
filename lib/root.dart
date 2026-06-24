@@ -3,7 +3,7 @@ import 'dart:ui';
 import 'package:flutter/material.dart';
 import 'package:google_nav_bar/google_nav_bar.dart';
 import 'package:hungry/core/theme/app_colors.dart';
-import 'package:hungry/features/Profile/view/Profile_view.dart';
+import 'package:hungry/features/auth/view/Profile_view.dart';
 import 'package:hungry/features/cart/view/Cart_view.dart';
 import 'package:hungry/features/home/view/home.dart';
 import 'package:hungry/features/order/view/order_view.dart';

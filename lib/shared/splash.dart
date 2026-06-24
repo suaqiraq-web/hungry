@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:hungry/core/theme/app_colors.dart';
-import 'package:hungry/features/Login/view/login_view.dart';
+import 'package:hungry/features/auth/view/login_view.dart';
 import 'package:hungry/features/auth/data/auth_repo.dart';
 import 'package:hungry/root.dart';
 

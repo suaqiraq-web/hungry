@@ -6,7 +6,7 @@ import 'package:hungry/core/theme/custom_text.dart';
 import 'package:hungry/features/home/widget/Search_View.dart';
 
 class HomeAppbarView extends StatefulWidget {
-  HomeAppbarView({super.key,  this.userImage, required this.userAddress, required this.onChane, required this.search});
+  const HomeAppbarView({super.key,  this.userImage, required this.userAddress, required this.onChane, required this.search});
   final String? userImage;
   final String userAddress;
   final Function(String) onChane;
